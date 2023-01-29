@@ -1,9 +1,9 @@
 {
   "name": "@azam_munawar/react-lib",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "",
   "scripts": {
-    "rollup": "rollup -c",
+    "rollup": "rollup -c ",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
@@ -37,5 +37,7 @@
     "dist"
   ],
   "types": "dist/index.d.ts",
-  "dependencies": {}
+  "dependencies": {
+    "rollup-plugin-import-css": "^3.1.0"
+  }
 }
